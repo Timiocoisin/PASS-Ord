@@ -1,0 +1,19 @@
+[HAMI-core Msg(800418:128047624215872:libvgpu.c:856)]: Initializing.....
+
+===== polish interleaved =====
+CNN ResNet...
+[HAMI-core Msg(800418:128047624215872:libvgpu.c:878)]: Initialized
+  resnet18 0/1678
+  resnet18 640/1678
+  resnet18 1280/1678
+  saved cnn_pp_resnet18_interleaved.npy: 421
+CNN EffNet...
+  efficientnet_b0 0/1678
+  efficientnet_b0 640/1678
+  efficientnet_b0 1280/1678
+  saved cnn_pp_efficientnet_b0_interleaved.npy: 421
+v8 ckpts: 8
+BEST interleaved [soft] ok=5/6 0.9834/0.9430/0.026009/sp=0.990219
+  weights {'lstm_c3': np.float64(0.0022), 'lstm_mae': np.float64(0.1621), 'rf': np.float64(0.7929), 'resnet': np.float64(0.0426), 'effnet': np.float64(0.0002)}
+  sota {'cls3_acc': True, 'cls3_f1': True, 'cls5_acc': True, 'cls5_f1': True, 'progress_mae': True, 'progress_spearman': False}
+[HAMI-core Msg(800418:128047624215872:multiprocess_memory_limit.c:455)]: Calling exit handler 800418

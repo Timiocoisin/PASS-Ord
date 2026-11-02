@@ -1,0 +1,15 @@
+{
+  "cls3_acc_mean": 0.9886621315192743,
+  "cls3_acc_std": 0.0018514661699041276,
+  "cls5_acc_mean": 0.9778911564625851,
+  "cls5_acc_std": 0.0034013605442176848,
+  "progress_mae_mean": 0.01101123543400167,
+  "progress_mae_std": 0.0007413183172514135,
+  "progress_spearman_mean": 0.9977648812395503,
+  "progress_spearman_std": 0.0005783594511697462,
+  "n": 4,
+  "ensemble_cls3": 0.9909297052154195,
+  "ensemble_cls5": 0.981859410430839,
+  "ensemble_mae_frame": 0.014672864245930657,
+  "ensemble_spearman_frame": 0.9968470478360523
+}

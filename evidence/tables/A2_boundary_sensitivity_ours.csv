@@ -1,0 +1,4 @@
+cls3_edges,method,cls3_acc,delta_vs_default,cls3_acc_task_routed,note,B5_MeanPool_RF_cls3
+40/110,Ours_v9,0.9572,0.0,0.9834,默认边界下任务路由头 Acc=0.9834；表内 cls3_acc 为进度序数读出协议,0.9359
+30/100,Ours_v9,0.943,-0.0142,,,0.8789
+50/120,Ours_v9,0.9264,-0.0308,,,0.829

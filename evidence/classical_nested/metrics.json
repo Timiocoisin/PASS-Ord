@@ -1,0 +1,24 @@
+[
+  {
+    "model": "SVM",
+    "progress_level": "pass",
+    "note": "new nested frame-feature baseline; pass-aggregated predictions",
+    "cls3_acc": 0.9705215419501134,
+    "cls3_f1": 0.9715378040156093,
+    "cls5_acc": 0.9705215419501134,
+    "cls5_f1": 0.9701885486939977,
+    "progress_mae": 0.01741835694907622,
+    "progress_spearman": 0.9961875859483859
+  },
+  {
+    "model": "RF",
+    "progress_level": "pass",
+    "note": "new nested frame-feature baseline; pass-aggregated predictions",
+    "cls3_acc": 0.9750566893424036,
+    "cls3_f1": 0.975550664396537,
+    "cls5_acc": 0.981859410430839,
+    "cls5_f1": 0.9820624808906315,
+    "progress_mae": 0.017788427655480697,
+    "progress_spearman": 0.9942475856765398
+  }
+]

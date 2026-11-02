@@ -1,0 +1,150 @@
+{
+  "paired_counts": {
+    "both_correct": 428,
+    "corrected": 5,
+    "introduced": 0,
+    "both_wrong": 8
+  },
+  "changed_passes": [
+    {
+      "grind": 35,
+      "pass_id": 2,
+      "true5": 1,
+      "cnn5": 0,
+      "ours5": 1,
+      "outcome": "corrected"
+    },
+    {
+      "grind": 69,
+      "pass_id": 1,
+      "true5": 2,
+      "cnn5": 1,
+      "ours5": 2,
+      "outcome": "corrected"
+    },
+    {
+      "grind": 69,
+      "pass_id": 2,
+      "true5": 2,
+      "cnn5": 1,
+      "ours5": 2,
+      "outcome": "corrected"
+    },
+    {
+      "grind": 69,
+      "pass_id": 3,
+      "true5": 2,
+      "cnn5": 1,
+      "ours5": 2,
+      "outcome": "corrected"
+    },
+    {
+      "grind": 69,
+      "pass_id": 4,
+      "true5": 2,
+      "cnn5": 1,
+      "ours5": 2,
+      "outcome": "corrected"
+    }
+  ],
+  "checkpoints": {
+    "outputs\\baselines\\ours_nested\\resnet18_nested_best_spearman.pt": {
+      "metadata": {
+        "epoch": 16,
+        "selection": "val"
+      },
+      "sha256": "aae79ec53aaaba04b7d25255de0f2cd5ca99f42c7c755bb12eb78988f485da2d"
+    },
+    "outputs\\baselines\\ours_nested\\resnet18_nested_refit.pt": {
+      "metadata": {
+        "refit_epochs": 16
+      },
+      "sha256": "3d8bae65a08502776872fd5aabdd53359db261b6b5dbd09ac2a6d8bd1c9f754e"
+    },
+    "outputs\\baselines\\ours_nested\\resnet_nested_s0.pt": {
+      "metadata": {
+        "epoch": 16,
+        "seed": 0
+      },
+      "sha256": "d5fce20d7c2d06ab0b07f3b36c405271511bf73b00aad32ff994045128ef17eb"
+    },
+    "outputs\\baselines\\ours_nested\\resnet_nested_s1.pt": {
+      "metadata": {
+        "epoch": 16,
+        "seed": 1
+      },
+      "sha256": "840f9bea9a3cd9a11d8eab1dba793b19c25962de4c237f3710cb57dd3b8a4ac7"
+    },
+    "outputs\\baselines\\ours_nested\\resnet_nested_s2.pt": {
+      "metadata": {
+        "epoch": 16,
+        "seed": 2
+      },
+      "sha256": "57987040986a94404fb7ae5b797cccfbe68a448a8ae2ad2570f70b98f8a503d0"
+    },
+    "outputs\\baselines\\ours_nested\\resnet_nested_s3.pt": {
+      "metadata": {
+        "epoch": 16,
+        "seed": 3
+      },
+      "sha256": "f870e73f01877d879748c7ce315f536fae69f8917abd5971623411ea59b50eb2"
+    },
+    "outputs\\baselines\\ours_nested\\select\\ours_nested_s0.pt": {
+      "metadata": {
+        "seed": 0,
+        "selection": "nested_val"
+      },
+      "sha256": "34473c8023fbaca64fd10659521a5e88a901048a4c9d61ee48834b3c4851b5e0"
+    },
+    "outputs\\baselines\\ours_nested\\select\\ours_nested_s1.pt": {
+      "metadata": {
+        "seed": 1,
+        "selection": "nested_val"
+      },
+      "sha256": "285209e9179494409e979744668d054e09c2251116273a54c2365d44f6bfd6f4"
+    },
+    "outputs\\baselines\\ours_nested\\select\\ours_nested_s2.pt": {
+      "metadata": {
+        "seed": 2,
+        "selection": "nested_val"
+      },
+      "sha256": "fa9d3549329621be57612d0039546a48fbef7c78a49d6d32946fa508b0fd3e4b"
+    },
+    "outputs\\baselines\\ours_nested\\select\\ours_nested_s3.pt": {
+      "metadata": {
+        "seed": 3,
+        "selection": "nested_val"
+      },
+      "sha256": "2bb9b03b60361fa7c98464f8f7db99033634b6addb1db664d50416ddbc0f5ce1"
+    },
+    "outputs\\baselines\\ours_nested\\select\\ours_nested_s4.pt": {
+      "metadata": {
+        "seed": 4,
+        "selection": "nested_val"
+      },
+      "sha256": "d56accc5a71dc534e5eea4acb3106b91a5f56eb172c56ea51458585aeb737ae2"
+    },
+    "outputs\\baselines\\ours_nested\\select\\ours_nested_s5.pt": {
+      "metadata": {
+        "seed": 5,
+        "selection": "nested_val"
+      },
+      "sha256": "07dae90f138afbf16b0510853414aee643ca6c4601b9e2b3fb74bb13812db2a3"
+    },
+    "outputs\\baselines\\ours_nested\\select\\ours_nested_s6.pt": {
+      "metadata": {
+        "seed": 6,
+        "selection": "nested_val"
+      },
+      "sha256": "9ec2999ba91f413dcfda772bbe304304a3c06484694f57e3ce8cd20c3299ae0f"
+    },
+    "outputs\\baselines\\ours_nested\\select\\ours_nested_s7.pt": {
+      "metadata": {
+        "seed": 7,
+        "selection": "nested_val"
+      },
+      "sha256": "43025fca7da66d57bf3513b0e6d184145a635b7e0a2d525b8a5b1884cd244c69"
+    }
+  },
+  "verified_run_summary": 45
+}

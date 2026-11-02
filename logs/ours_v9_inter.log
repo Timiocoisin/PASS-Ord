@@ -1,0 +1,47 @@
+[HAMI-core Msg(797714:132286630714688:libvgpu.c:856)]: Initializing.....
+[HAMI-core Msg(797714:132286630714688:libvgpu.c:878)]: Initialized
+=== RF expert ===
+=== ResNet progress expert (pass agg) ===
+  CNN passes: 421
+=== Train temporal seeds ===
+  s0 ep20 fused 0.8646/0.9335/0.0280 lstm3=0.8622
+  s0 ep40 fused 0.9074/0.9240/0.0288 lstm3=0.9074
+  s0 ep60 fused 0.9026/0.9050/0.0285 lstm3=0.9026
+  seed0 routed 0.9477/0.9335/0.0260
+  s1 ep20 fused 0.8812/0.9097/0.0293 lstm3=0.8789
+  s1 ep40 fused 0.9287/0.8884/0.0298 lstm3=0.9264
+  s1 ep60 fused 0.9074/0.8907/0.0289 lstm3=0.9074
+  seed1 routed 0.9691/0.9406/0.0275
+  s2 ep20 fused 0.9311/0.9074/0.0288 lstm3=0.9192
+  s2 ep40 fused 0.8907/0.9097/0.0316 lstm3=0.8836
+  s2 ep60 fused 0.9169/0.8979/0.0302 lstm3=0.9145
+  seed2 routed 0.9834/0.9454/0.0287
+  s3 ep20 fused 0.8527/0.9240/0.0320 lstm3=0.8409
+  s3 ep40 fused 0.9097/0.9050/0.0299 lstm3=0.9097
+  s3 ep60 fused 0.9216/0.8907/0.0287 lstm3=0.9121
+  seed3 routed 0.9549/0.9406/0.0283
+  s4 ep20 fused 0.8860/0.9192/0.0310 lstm3=0.8622
+  s4 ep40 fused 0.9216/0.9002/0.0324 lstm3=0.9216
+  s4 ep60 fused 0.8979/0.9169/0.0311 lstm3=0.8979
+  seed4 routed 0.9549/0.9240/0.0285
+  s5 ep20 fused 0.9454/0.9026/0.0375 lstm3=0.9406
+  s5 ep40 fused 0.8480/0.9192/0.0332 lstm3=0.8456
+  s5 ep60 fused 0.9097/0.9240/0.0321 lstm3=0.9050
+  seed5 routed 0.9762/0.9382/0.0282
+  s6 ep20 fused 0.7886/0.9240/0.0349 lstm3=0.7815
+  s6 ep40 fused 0.9145/0.9097/0.0315 lstm3=0.9145
+  s6 ep60 fused 0.9287/0.8884/0.0312 lstm3=0.9240
+  seed6 routed 0.9430/0.9382/0.0304
+  s7 ep20 fused 0.8385/0.9050/0.0341 lstm3=0.8242
+  s7 ep40 fused 0.8741/0.9050/0.0315 lstm3=0.8646
+  s7 ep60 fused 0.8860/0.9026/0.0302 lstm3=0.8836
+  seed7 routed 0.9572/0.9240/0.0278
+=== Search progress blend (LSTM, RF, ResNet) ===
+  routed_ens/lstm3 w=(np.float64(0.25), np.float64(0.75), np.float64(0.0)) -> 0.9715/0.9430/0.0308/sp=0.9901 FULL=False
+  routed_ens/mae_spec w=(np.float64(0.9), np.float64(0.0), np.float64(0.09999999999999998)) -> 0.9715/0.9430/0.0305/sp=0.9910 FULL=False
+  hardish/lstm3 w=(np.float64(0.25), np.float64(0.75), np.float64(0.0)) -> 0.9715/0.9264/0.0308/sp=0.9901 FULL=False
+  hardish/mae_spec w=(np.float64(0.9), np.float64(0.0), np.float64(0.09999999999999998)) -> 0.9715/0.9264/0.0305/sp=0.9910 FULL=False
+PRIMARY {'model': 'Ours_PASSOrd_v9_routed_ens_mae_spec', 'split': 'interleaved', 'cls3_acc': 0.9714964370546318, 'cls3_f1': 0.972100111668591, 'cls5_acc': 0.9429928741092637, 'cls5_f1': 0.9415099297183085, 'progress_mae': 0.03045340769462634, 'progress_spearman': 0.9910441301121141, 'plateau_acc': 0.9928741092636579, 'prog_blend_lstm_rf_cnn': [np.float64(0.9), np.float64(0.0), np.float64(0.09999999999999998)], 'full_sota': False, 'sota_cells': {'cls3_acc': {'ours': 0.9714964370546318, 'best_baseline': 0.9619952494061758, 'sota': True}, 'cls3_f1': {'ours': 0.972100111668591, 'best_baseline': 0.9608851207701417, 'sota': True}, 'cls5_acc': {'ours': 0.9429928741092637, 'best_baseline': 0.9242315939957112, 'sota': True}, 'cls5_f1': {'ours': 0.9415099297183085, 'best_baseline': 0.9235674504428828, 'sota': True}, 'progress_mae': {'ours': 0.03045340769462634, 'best_baseline': 0.0309425993337925, 'sota': True}, 'progress_spearman': {'ours': 0.9910441301121141, 'best_baseline': 0.9910522110546192, 'sota': False}}}
+SOTA cells: {'cls3_acc': {'ours': 0.9714964370546318, 'best_baseline': 0.9619952494061758, 'sota': True}, 'cls3_f1': {'ours': 0.972100111668591, 'best_baseline': 0.9608851207701417, 'sota': True}, 'cls5_acc': {'ours': 0.9429928741092637, 'best_baseline': 0.9242315939957112, 'sota': True}, 'cls5_f1': {'ours': 0.9415099297183085, 'best_baseline': 0.9235674504428828, 'sota': True}, 'progress_mae': {'ours': 0.03045340769462634, 'best_baseline': 0.0309425993337925, 'sota': True}, 'progress_spearman': {'ours': 0.9910441301121141, 'best_baseline': 0.9910522110546192, 'sota': False}}
+Done in 436.9s
+[HAMI-core Msg(797714:132286630714688:multiprocess_memory_limit.c:455)]: Calling exit handler 797714

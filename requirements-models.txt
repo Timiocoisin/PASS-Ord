@@ -1,0 +1,6 @@
+-r requirements-evaluation.txt
+scikit-learn
+Pillow
+torch
+torchvision
+matplotlib

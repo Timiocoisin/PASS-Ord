@@ -1,0 +1,3 @@
+model,progress_level,note,cls3_acc,cls3_f1,cls5_acc,cls5_f1,progress_mae,progress_spearman
+SVM,pass,new nested frame-feature baseline; pass-aggregated predictions,0.9705215419501134,0.9715378040156093,0.9705215419501134,0.9701885486939977,0.01741835694907622,0.9961875859483859
+RF,pass,new nested frame-feature baseline; pass-aggregated predictions,0.9750566893424036,0.975550664396537,0.981859410430839,0.9820624808906315,0.017788427655480697,0.9942475856765398
